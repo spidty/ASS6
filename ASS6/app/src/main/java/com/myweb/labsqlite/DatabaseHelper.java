@@ -21,6 +21,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+
         db.execSQL(Student.CREATE_TABLE);
     }
 
@@ -55,6 +56,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             cursor.moveToFirst();
         }
 
+        assert cursor != null;
         Student student = new Student(
                 cursor.getString(cursor.getColumnIndex(Student.COLUMN_ID)),
                 cursor.getString(cursor.getColumnIndex(Student.COLUMN_NAME)),

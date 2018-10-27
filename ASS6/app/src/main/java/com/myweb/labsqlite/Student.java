@@ -5,7 +5,7 @@ public class Student {
 
     public static final String COLUMN_ID = "std_id";
     public static final String COLUMN_NAME = "std_name";
-    public static final String COLUMN_TRACK = "std_stack";
+    public static final String COLUMN_TRACK = "std_track";
 
     private String id;
     private String name;
@@ -25,10 +25,16 @@ public class Student {
     }
 
     public Student() {}
+
     public String getId() { return id; }
+
     public void setId(String id) { this.id = id; }
+
     public String getName() { return name; }
+
     public void setName(String name) { this.name = name; }
+
     public String getTrack() { return track; }
+
     public void setTrack(String track) { this.track = track; }
 }

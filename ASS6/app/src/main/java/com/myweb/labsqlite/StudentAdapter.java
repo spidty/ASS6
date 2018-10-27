@@ -54,6 +54,7 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.MyViewHo
 
     @Override
     public int getItemCount() {
+
         return studentList.size();
     }
 }

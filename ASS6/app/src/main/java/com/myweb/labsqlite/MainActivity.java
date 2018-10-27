@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                showStudentDialog(false,null,-1);
+                showStudentDialog(false, null, -1);
             }
         });
 
