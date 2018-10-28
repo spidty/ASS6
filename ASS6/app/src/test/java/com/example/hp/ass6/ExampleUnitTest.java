@@ -1,4 +1,4 @@
-package com.myweb.labsqlite;
+package com.example.hp.ass6;
 
 import org.junit.Test;
 
